@@ -6,15 +6,13 @@ API testing exercise:
 
 ## Implementation
 - ✅ create Maven repo with Cucumber archetype
-- add dependencies: JUnit suite, Rest Assured, Cucumber
-- Cucumber + Rest Assured smoke test
+- ✅ add dependencies: JUnit suite, Rest Assured, Cucumber
+- 👉 Cucumber + Rest Assured smoke test
 - cucumber design: https://cucumber.io/docs/bdd/example-mapping/
 - simple endpoint test
 
 ## Later
 
-JavaDoc: `javadoc -d doc src\*`
-
-Optimize maven cucumber deps? https://github.com/cucumber/cucumber-jvm/blob/main/cucumber-bom/README.md
-
-Try PicoContainer?
+- JavaDoc: `javadoc -d doc src\*`
+- optimize maven cucumber deps? https://github.com/cucumber/cucumber-jvm/blob/main/cucumber-bom/README.md
+- dependency injection: try PicoContainer?
