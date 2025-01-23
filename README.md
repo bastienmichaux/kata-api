@@ -1,15 +1,15 @@
 # [kata-api](https://github.com/bastienmichaux/kata-api)
 
 API testing exercise:
-- test object: automationintesting.online API: test `book` & `message` APIs
+- test object: automationintesting.online API: test `bookin` & `message` APIs
 - tech: maven project using rest assured + cucumber + gherkin
 
 ## Implementation
 - ✅ create Maven repo with Cucumber archetype
 - ✅ add dependencies: JUnit suite, Rest Assured, Cucumber
-- 👉 Cucumber + Rest Assured smoke test
+- ✅ Cucumber + Rest Assured smoke test
 - cucumber design: https://cucumber.io/docs/bdd/example-mapping/
-- simple endpoint test
+- map gherkin steps
 
 ## Later
 
